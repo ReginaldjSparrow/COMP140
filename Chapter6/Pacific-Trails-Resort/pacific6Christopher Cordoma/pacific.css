@@ -1,0 +1,71 @@
+<style>
+* { box-sizing: border-box; }
+main { padding-left:20px;
+		padding-right:20px;
+			padding-bottom: 1px;
+				padding-top: 1px; 
+					background-color: #FFFFFF; 
+						margin-left: 170px; }
+body { color: #666666;
+             background-color: #FFFFFF;
+			 background-image: url("background.jpg");
+				font-family: Arial, Verdana, sans-serif; }
+h1 { color: #FFFFFF;
+			background-color: #000033;
+			background-image: url("sunset.jpg");
+			background-repeat: no-repeat;
+				line-height: 200%;
+				padding-left: 20px;
+				margin-bottom: 0;
+					height:72px;
+					font-family: Georgia,"Times New Roman",serif; }
+h2 { color: #3399CC;
+		font-family: Georgia,"Times New Roman",serif;}
+h3 { color: #000033; }
+nav { padding-left: 5px;
+		font-weight: bold; 
+			float: left;
+				width: 160px;
+					padding-top: 20px;
+						padding-right: 5px;
+							padding-left: 20px;}
+nav a { text-decoration: none; }
+nav a:link { color: #000033; }
+nav a:visited { color: #344873; }
+nav a:hover { color: #FFFFFF; }
+nav ul { margin: 0px;
+			padding-left: 0px;
+				list-style-type: none;}
+dt { color: #000033;
+		font-weight: bold; }
+.resort { color: #000033;
+			font-weight: bold; }
+p1 { font-size: .70em;
+			font-style: italic;
+					margin-left: auto;
+						margin-right: auto;
+							width:80%; }
+.homehero { height:300px;
+				background-image: url("coast.jpg");
+					background-size: 100% 100%;
+						margin-left: 170px; }
+.yurtshero { height:300px;
+				background-image: url("yurt.jpg");
+					background-size: 100% 100%;
+						margin-left: 170px; }
+.trailhero { height:300px;
+				background-image: url("trail.jpg");
+					background-size: 100% 100%;
+						margin-left: 170px; }
+.wrapper { margin-left: auto;
+			margin-right: auto;
+				background-color: #90C7E3;
+					width:80%;
+						min-width:700px;
+							max-width:1024px;	
+								box-shadow: 10px 10px}
+footer { padding-left:10px;
+			margin-left: 170px;
+				background-color: #FFFFFF; }
+header, nav, main, footer { display: block; }				
+</style>
